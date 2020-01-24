@@ -49,4 +49,13 @@ df['notas'].add(10)
 df['notas'].sub(10)
 
 
-df.mul(10)
+df['notas'].mul(10)
+
+
+df['notas'].div(10)
+
+
+notaparamostrar = df['notas'][0]
+
+print(notaparamostrar)
+
